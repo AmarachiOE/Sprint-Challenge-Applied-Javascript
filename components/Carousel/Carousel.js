@@ -3,18 +3,24 @@ class Carousel {
         this.rideElement = rideElement;
         this.leftButton = this.rideElement.querySelector('.left-button');
         this.rightButton = this.rideElement.querySelector('.right-button');
-        this.images = this.rideElement.querySelectorAll('.carousel img');
+        this.image = this.rideElement.querySelectorAll('.carousel img');
         this.leftButton.addEventListener ('click', () => {
-            this.toggleContent();
+            this.displayPhoto();
         })
         this.rightButton.addEventListener ('click', () => {
-            this.toggleContent();
+            this.displayPhoto();
         })
 
     }
 
-    toggleContent() {
-        
+    displayPhoto() {
+        const photos = document.querySelectorAll('.carousel img');
+
+        photos.forEach( photo => photo.style.display = "none");
+
+        this.image.style.display = "inline-block";
+
+
     }
 }
 
