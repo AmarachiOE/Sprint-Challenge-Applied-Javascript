@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model; an object representation of the HTML components of a webpage and is the bridge (API) between HTML content and the browser.
+
 2. What is an event?
+
+An event is every interaction a user has with a webpage (e.g. clicks, moving the mouse, scrolling, pressing keys, etc.).
 
 3. What is an event listener?
 
+An event listener is an assigned element that anticipates specific events and fires a callback function when that event occurs.
+
 4. Why would we convert a NodeList into an Array?
 
+It may be advantageous to convert a NodeList into an Array to gain access to more array methods.
+
 5. What is a component?
+
+A component is a reusable model for webpages or applications that are comprised of HTML, CSS, or Javascript code. The adaptability of components allows web developers to apply them to multiple projects .
 
 ### Git Set up
 
@@ -55,7 +65,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+* [x] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
 
 ## Stretch Problems
 
